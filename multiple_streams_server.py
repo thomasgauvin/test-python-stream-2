@@ -4,7 +4,7 @@ import cv2
 app = Flask(__name__)
 
 def find_camera(id):
-    cameras = ['rtsp://localhost:8554/live', 'rtsp://localhost:8554/live2']
+    cameras = ['rtsp://3.16.89.227:8554/live', 'rtsp://localhost:8554/live2']
     return cameras[int(id)]
  
 
