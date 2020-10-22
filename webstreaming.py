@@ -21,7 +21,7 @@ app = Flask(__name__)
 # initialize the video stream and allow the camera sensor to
 # warmup
 #vs = VideoStream(usePiCamera=1).start()
-vs = cv2.VideoCapture("rtsp://localhost:8554/live")
+vs = cv2.VideoCapture("rtsp://3.16.89.227:8554/live")
 
 time.sleep(2.0)
 
